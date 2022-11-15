@@ -1,9 +1,9 @@
 import React from 'react';
 import { createPortal } from 'react-dom';
-import htmlLogo from '../../assets/html-5.png';
-import arrow from '../../assets/right-arrow.png';
+import htmlLogo from '../assets/html-5.png';
+import arrow from '../assets/right-arrow.png';
 
-import '../../styles/Modal.css';
+import '../styles/Modal.css';
 
 const Modal = ({ values, setValues, open, onClose }) => {
   const handleChange = (e) => {

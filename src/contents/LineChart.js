@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import "../../styles/LineChart.css";
+import '../styles/LineChart.css';
+
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 const data = [
@@ -53,7 +54,7 @@ const LineCh = () => {
       onMouseLeave={() => setIsVisible(false)}
     >
       <div
-        className = "chartBar positionClass"
+        className="chartBar positionClass"
         style={{ left: `${position - 50}px`, opacity: isVisible ? 0.1 : 0 }}
       ></div>
       <LineChart

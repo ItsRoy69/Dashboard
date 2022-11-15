@@ -1,7 +1,7 @@
 import React from 'react';
 import 'chart.js/auto';
 import { Doughnut } from 'react-chartjs-2';
-import "../../styles/DoughnutChart.css";
+import '../styles/DoughnutChart.css';
 
 const chartColors = ['#438AF6', 'rgba(67, 138, 246,0.1)'];
 

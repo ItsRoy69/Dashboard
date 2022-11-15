@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../../styles/SkillTest.css';
+import '../styles/SkillTest.css';
 
-import htmlLogo from '../../assets/html-5.png';
+import htmlLogo from '../assets/html-5.png';
 import LineCh from './LineChart';
 import DoughnutChart from './DoughnutChart';
 import ProgressBar from './ProgressBar';
