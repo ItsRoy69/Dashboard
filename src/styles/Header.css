@@ -4,6 +4,10 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #EBF0F5;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #ffffff;
 }
 
 .headerDiv{

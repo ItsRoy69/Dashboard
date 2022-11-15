@@ -59,7 +59,7 @@ const SkillTest = () => {
                     HyperText Markup Language
                   </div>
                   <p className="skillDetails">
-                    Questions: 09 | Duration: 15 mins | Submitted on 5 June 2021
+                    Questions: 09 | Duration: 15 mins | Submitted on 15 Nov 2022
                   </p>
                 </div>
               </div>

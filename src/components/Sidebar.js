@@ -1,9 +1,9 @@
 import React from 'react';
-import '../../styles/Sidebar.css';
+import '../styles/Sidebar.css';
 
-import dashboardSvg from '../../assets/dashboard.svg';
-import skillSvg from '../../assets/badge.svg';
-import intershipSvg from '../../assets/paper.svg';
+import dashboardSvg from '../assets/dashboard.svg';
+import skillSvg from '../assets/badge.svg';
+import intershipSvg from '../assets/paper.svg';
 
 const Sidebar = () => {
   return (
