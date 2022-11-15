@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
 .skillTest {
   position: absolute;
@@ -6,10 +5,6 @@
   right: 0;
   bottom: 0;
   width: 81vw;
-  text-decoration: none;
-  outline: none;
-  font-weight: 700;
-  font-family: 'DM Sans', sans-serif;
 }
 
 .skillName {
