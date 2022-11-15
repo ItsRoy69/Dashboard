@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.barContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.progress {
+  border-radius: 20px;
+  position: relative;
+  margin: 15px 0;
+  height: 0.5rem;
+  width: 12.5rem;
+}
+
+.progress-done {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  opacity: 0;
+}

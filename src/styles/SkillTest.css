@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.skillTest {
+  position: absolute;
+  top: 13vh;
+  right: 0;
+  bottom: 0;
+  width: 81vw;
+  text-decoration: none;
+  outline: none;
+  font-weight: 700;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.skillName {
+  margin: 1rem;
+  font-size: 0.8rem;
+  color: #566474;
+}
+
+.skillCard {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.skillsRight {
+  max-width: 33.33%;
+  min-width: 33.33%;
+}
+
+.skillImg {
+  height: 50px;
+}
+
+.skillHeader {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  border: 1px solid #ebf0f5;
+  border-radius: 10px;
+}
+
+.skillLeft {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.skillTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+}
+
+.skillDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: #566474;
+}
+
+.skillActions {
+  font-size: 0.875rem;
+  padding: 0.5rem 2rem;
+  background-color: #142683;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.statisticsCard,
+.comparisonCard,
+.syllabusAnalysis,
+.questionAnalysis {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ebf0f5;
+  border-radius: 10px;
+}
+
+.statisticsTitle {
+  font-weight: 700;
+}
+
+.statisticsDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.statisticIcon,
+.comparisonEmoji {
+  padding: 0.75rem;
+  background-color: #f7f8fa;
+  border: 1px solid #ebf0f5;
+  border-radius: 50%;
+}
+
+.statisticsItem {
+  font-size: 1.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.statData {
+  font-weight: 700;
+}
+
+.statisticName {
+  font-size: 0.75rem;
+  color: #9eaab7;
+}
+
+.comparisonCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comparisonDetails {
+  font-size: 0.875rem;
+  color: #566474;
+}
+
+.comparisonHeader {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comparisonLeft {
+  padding-right: 6rem;
+}
+
+.lineWrapper {
+  border: 1px solid #ebf0f5;
+  border-radius: 0.25rem;
+}
+
+.questionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.questionHeader p {
+  color: #438af6;
+}
+
+.questionDetails {
+  font-size: 0.875rem;
+  color: #566474;
+  margin-bottom: 1.5rem;
+}
+
+.statisticsTitle,
+.comparisonTitle,
+.syllabusHeader,
+.questionHeader {
+  margin-bottom: 1.25rem;
+}

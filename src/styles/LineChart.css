@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.chartContainer {
+  width: fit-content;
+  overflow: hidden;
+  position: relative;
+}
+
+.chartBar {
+  width: 100px;
+  position: absolute;
+  background: rgb(0, 119, 255);
+  opacity: 0.1;
+  height: 89%;
+  transition: 0.3s ease;
+}
+
+.gradient-left {
+  background: linear-gradient(to right, transparent, rgb(0, 119, 255));
+}
+
+.gradient-right {
+  background: linear-gradient(to left, transparent, rgb(0, 119, 255));
+}

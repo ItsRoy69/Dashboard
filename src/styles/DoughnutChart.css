@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.emojiContainer{
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.relative{
+    margin: auto;
+    height:13rem;
+    width: 13rem;
+    position: relative;
+    margin-bottom: 1rem;
+}

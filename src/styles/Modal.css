@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.modalStyles {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  z-index: 1000;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.modalHeader {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ebf0f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2.25rem;
+}
+
+.img {
+  height: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.rowItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.row p {
+  color: #566474;
+  font-size: 1.125rem;
+}
+
+.row span {
+  padding: 5px;
+  width: 1.75rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #142683;
+  font-size: 0.94rem;
+  color: #fff;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #142683;
+  outline: #142683;
+  border-radius: 5px;
+  color: #142683;
+  font-weight: 700;
+}
+
+.buttons {
+  margin-top: 0.5rem;
+  padding-top: 1.5rem;
+  padding-right: 2rem;
+  text-align: right;
+  border-top: 1px solid #ebf0f5;
+}
+
+.cancelBtn {
+  color: #142683;
+  border: 1px solid #142683;
+  border-radius: 5px;
+  padding: 0.5rem 0.75rem;
+  margin-right: 2rem;
+  background-color: #fff;
+}
+
+.submitBtn {
+  color: #fff;
+  border: 1px solid #142683;
+  border-radius: 5px;
+  background-color: #142683;
+  padding: 0.5rem 0.75rem;
+}
+
+.arrow {
+  margin-left: 3px;
+  padding-top: 5px;
+  height: 15px;
+}

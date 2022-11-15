@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.header{
+    padding: 1.25rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #EBF0F5;
+}
+
+.headerDiv{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    font-weight: 700;
+    border: 1px solid #EBF0F5;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    outline: none;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.profileImg{
+    height: 26px;
+    width: auto;
+    border-radius: 50%;
+}
